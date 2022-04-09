@@ -6,62 +6,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thread And Needles | Your Favourite Thread for happiness</title>
+    <meta name="description" content="We Provide Stitching and Alteration Services for Ladies Clothes">
+    <meta name="keywords"
+        content="Ladies stitching, Alteration Services , Stitching Services, Threads And Needles , Artisan Kalsoom, " />
+    <!-- These components are from Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-    <meta name="description" content="A brief page description">
-    <meta name="keywords" content="html,cheatsheet" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Style/style.css">
+
+    <style>
+        .customclass {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 
 </head>
 
 <body>
-    <nav>
-        <div>LOGO</div>
-        <header>
-            <ul>
-                <li>What we do</li>
-                <li>Our Services</li>
-                <li>Features</li>
-                <li>Pricing</li>
-            </ul>
-        </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Threads And Needles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">What we Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
     </nav>
 
-    <!-- add slider over here with multiple images -->
-    <div>
-        <img src="images/sliderimage1.jpg" alt="Girl with pakistan dress"></section>
+
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/sliderimage1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/sliderimage2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/sliderimage3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="customclass">
+            <!-- add animation  -->
+            <h1>Thread And Needles</h1>
+            <p><span>your favorite Thread for happiness </span></p>
+        </div>
+
+
     </div>
 
 
-    <!-- this will be displayed on top of the slider -->
-    <div>
-        <!-- add animation  -->
-        <h1>Thread And Needles</h1>
-        <span>your favorite Thread for happiness </span>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Services -->
 
     <div>
-        <div>
-            <h2>Our Services</h2>
-        </div>
+        <h2 align="center">Our Services</h2>
 
-        <div>
-            <span>
-                <p>We Provide Services for Ladies Clothes</p>
-            </span>
-            <ul>
-                <!-- Need to add an image as well with both services -->
-                <li>
-                    <span>image</span>
-                    Stitching
-                </li>
+        <div class="card-deck aligningcards">
 
-                <li>
-                    <span>image</span>
-                    Alteration
-                </li>
-            </ul>
+
+            <div class="card" style="width: 50rem;">
+                <img class="card-img-top" src="images/sliderimage1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Stitching</h3>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card" style="width: 50rem;">
+                <img class="card-img-top" src="images/sliderimage2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Alteration</h3>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -70,58 +140,133 @@
 
     <div>
         <div>
-            <h2>Features</h2>
+            <h2 align="center">Featured Clothes</h2>
         </div>
-        <div>
-            image1
-            image2
-            iamge3
-        </div>
-        <div>
-            image1
-            image2
-            iamge3
-
-        </div>
-        <div>
-            image1
-            image2
-            iamge3
-
+        <div class="row
+">
+            <div class="column">
+                <img src="images/features/suit1.jpg">
+                <img src="images/features/suit2.jpg">
+                <img src="images/features/suit3.jpg">
+                <img src="images/features/suit4.jpg">
+            </div>
+            <div class="column">
+                <img src="images/features/suit5.jpg">
+                <img src="images/features/suit6.jpg">
+                <img src="images/features/suit7.jpg">
+                <img src="images/features/suit8.jpg">
+            </div>
+            <div class="column">
+                <img src="images/features/suit9.jpg">
+                <img src="images/features/suit10.jpg">
+            </div>
         </div>
     </div>
 
     <!----------------------------- Pricing------------------------------>
     <div>
         <div>
-            <h2>Pricing</h2>
+            <h2 align="center" c>Pricing</h2>
         </div>
 
-        <div>
+        <!-- <div>
             <span>
                 <p>We are giving special discount to first 100 customers</p>
             </span>
             <ul>
-                <!-- Need to add an image as well with both services -->
                 <li>Simple Suit - <span>price</span> <br> <span>Old price</span></li>
                 <li>Simple Suit - <span>price</span> <br> <span>Old price</span></li>
                 <li>Simple Suit - <span>price</span> <br> <span>Old price</span></li>
                 <li>Simple Suit - <span>price</span> <br> <span>Old price</span></li>
             </ul>
 
+        </div> -->
+
+        <div class="card-deck aligningcards">
+
+
+            <div class="card" style="width: 40rem;">
+                <img class="card-img-top" src="images/testicons/pi1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Silk Suit with Lining</h3>
+                    <p class="card-text">limited time offer 35$ for a silk suit with lining</p>
+                </div>
+            </div>
+            <div class="card" style="width: 40rem;">
+                <img class="card-img-top" src="images/testicons/pi1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Simple Suit</h3>
+                    <p class="card-text">A simple suit with salwar or a trouser for only 25$</p>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 40rem;">
+                <img class="card-img-top" src="images/testicons/pi1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Silk Suit</h3>
+                    <p class="card-text">A simple suit of silk without lining for only 30$</p>
+                </div>
+            </div>
+
         </div>
+
     </div>
 
+
+
+
+
     <!----------------------------- Form ------------------------------>
-    <div>
-        <h2>Ready to discuss</h2>
-        <form action="">
-            <input type="text" placeholder="Your Name">
-            <input type="text" palceholder="Phone Number">
-            <input type="text" palceholder="Email">
-            <input type="text" palceholder="Share info about your order">
-            <button>Send a Message</button>
+    <!-- <div>
+        <h2 class="sectionheading" align="center">Ready to discuss</h2>
+
+
+        <form class="form-group" action="" class="mainform">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Name">
+            </div>
+
+
+            <div class="form-group">
+                <label> Phone Number</label>
+                <input type="Number" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Number">
+            </div>
+            <textarea name="" id="" placeholder="Describe your order"></textarea>
+            <button class="btn">Send a Message</button>
         </form>
+    </div> -->
+
+    <div class="card mb-3 mx-auto" style="max-width:1990px;">
+        <div>
+            <h2 align="center">Get in Touch</h2>
+        </div>
+
+        <div class="row no-gutters" max-width="2000px">
+            <div class="col-md-4">
+                <img src="images/testicons/pi1.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <form class="form-group" action="" class="mainform">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label> Phone Number</label>
+                            <input type="Number" class="form-control" placeholder="Enter Your Number">
+                        </div>
+                        <textarea placeholder="Describe your order"></textarea>
+                        <button class="btn btn-primary">Send a Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -130,39 +275,135 @@
 
     <!----------------------------- Footer ------------------------------>
 
-    <footer>
-        <ul>
-            <div>logo small</div>
-            <li>What we do</li>
-            <li>Our Services</li>
-            <li>Features</li>
 
-        </ul>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-        <!-- icons on the right side -->
-        <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>Website</li>
-        </ul>
+            <!-- will be presented on the left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Connect with us on Social Media Handles</span>
+            </div>
+                        <!-- will be presented on the right -->
+            <div>
+                <a href="https://www.facebook.com/threadsandneedless" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
 
+                <a href="mailto:hassanhanjra900@gmail.com" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/threads.nd.needles/?hl=en" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>THREAD AND NEEDLES
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="
+            threadsndneedles.com">threadsndneedles.com</a>. Created by 
+            <a class="text-reset fw-bold" href="https://github.com/hassancodes">Muhammad Hassan</a>
+
+        </div>
+        <!-- Copyright -->
     </footer>
-
-    <hr>
-
-    <!-- after this we have terms and conditions and Liscence -->
-    <div>
-        <ul>
-            <li>Terms of Use</li>
-            <li>Liscence</li>
-            <li>Instructions</li>
-        </ul>
-
-        <ul> All right reserved. Powered by ThreadAndNeedles</ul>
-    </div>
+    <!-- Footer -->
 
 
 
+    <!-- adding Bootstrap JS and Popper :) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
