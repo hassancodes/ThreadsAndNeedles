@@ -1,20 +1,65 @@
-.aligningcards{
-    display : flex !important;
-    justify-content: center;
-    /* margin : 20px; */
+:root {}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.aligningcards div{
-    margin: 10px;
+
+/*------------------------------------------ header css Start----------------------------------- */
+nav .nav__link {
+  transition: 0.3s ease;
+  /* background: #3fa46a; */
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 5px;
+  font-size: 17px;
 }
 
+.nav__link:hover {
+  border-top: 4px solid #fdce4b;
+  border-bottom: 4px solid #fdce4b;
+  padding: 6px 0;
+}
+
+.dropdown:hover {
+  color: black !important;
+}
+
+
+
+
+/*------------------------------------------ header css Ends Here----------------------------------- */
+
+
+
+
+
+
+
+/*------------------------------------------ Aligning the cards ----------------------------------- */
+
+.aligningcards {
+  display: flex !important;
+  justify-content: center;
+  /* margin : 20px; */
+}
+
+.aligningcards div {
+  margin: 10px;
+}
 
 @media (max-width: 600px) {
-  .card{
+  .card {
     /* width:25rem !important; */
     width: 100% !important;
   }
-  .aligningcards{
+
+  .aligningcards {
     display: flex;
     flex-direction: column;
 
@@ -23,98 +68,75 @@
 
 
 
-.getintouch{
+.getintouch {
   /* display:flex;
   align:center;
   justify-content: center;
   flex-direction: column;
   max-width: 2000px;*/
-  border:10px solid black;
-  text-align:center;
+  border: 10px solid black;
+  text-align: center;
 
 
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================================== */
+/* ==========================Features CSS start from here =========================== */
 
 
 
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    justify-content:center;
-  }
-  
-  /* Create four equal columns that sits next to each other */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
   .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    flex: 50%;
+    max-width: 50%;
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
- @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
 
 
 
-  .preloader {
-    align-items: center;
-    background: #FFF;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    left: 0;
-    position: fixed;
-    top: 0;
-    transition: opacity 0.2s linear;
-    width: 100%;
-    z-index: 9999;
-    opacity: 1;
-    transform: opacity 1s linear;
-  }
-
-
-
-
-
-
-
-
-
+.preloader {
+  align-items: center;
+  background: #FFF;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.2s linear;
+  width: 100%;
+  z-index: 9999;
+  opacity: 1;
+  transform: opacity 1s linear;
+}
