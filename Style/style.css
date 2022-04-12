@@ -76,6 +76,9 @@ nav .nav__link {
     transition: box-shadow .15s ease-in-out; */
     display: none;
   }
+  .container-fluid{
+    width:0%;
+  }
 
 }
 
