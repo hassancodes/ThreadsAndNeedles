@@ -1,7 +1,29 @@
-:root {}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: linear-gradient(-90deg, #CC72A0, #e73c7e, #EDCADF, #DDA2BF);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*------------------------------------------Font Settings ----------------------------------- */
+.sectionheadings {
+  font-family: 'Dancing Script';
+  font-size: 4vw;
+  padding: 15px 0px 5px 0px;
 }
 
 
@@ -10,19 +32,19 @@ nav .nav__link {
   transition: 0.3s ease;
   /* background: #3fa46a; */
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 5px;
   font-size: 17px;
 }
 
 .nav__link:hover {
-  border-top: 4px solid #fdce4b;
-  border-bottom: 4px solid #fdce4b;
+  border-top: 4px solid #CC72A0;
+  border-bottom: 4px solid #CC72A0;
   padding: 6px 0;
 }
 
@@ -67,21 +89,22 @@ nav .nav__link {
   }
 
   .navbar-toggler {
-    /* padding: 0rem;
-    font-size:0rem;
-    line-height: 0;
-    background-color: transparent;
-    border: 0.5px solid transparent;
-    border-radius: .25rem;
-    transition: box-shadow .15s ease-in-out; */
     display: none;
   }
-  .container-fluid{
+
+  .container-fluid {
     flex-direction: row;
     justify-content: center !important;
     align-items: center !important;
-  
+
   }
+
+  .sectionheadings {
+    font-family: 'Dancing Script';
+    font-size: 8vw;
+    padding: 15px 0px 5px 0px;
+  }
+
 
 }
 
@@ -144,18 +167,10 @@ nav .nav__link {
 
 
 
-.preloader {
-  align-items: center;
-  background: #FFF;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  left: 0;
-  position: fixed;
-  top: 0;
-  transition: opacity 0.2s linear;
-  width: 100%;
-  z-index: 9999;
-  opacity: 1;
-  transform: opacity 1s linear;
+/* main bootstrap changes ------------------------------------ */
+
+.row {
+  --bs-gutter-x: 0rem;
 }
+
+
