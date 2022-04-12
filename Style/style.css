@@ -77,7 +77,10 @@ nav .nav__link {
     display: none;
   }
   .container-fluid{
-    width:0%;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+  
   }
 
 }
