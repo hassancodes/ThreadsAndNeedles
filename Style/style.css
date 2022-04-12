@@ -1,7 +1,7 @@
 .aligningcards{
     display : flex !important;
     justify-content: center;
-    margin : 20px;
+    /* margin : 20px; */
 }
 
 .aligningcards div{
