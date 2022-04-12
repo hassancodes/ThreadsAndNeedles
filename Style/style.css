@@ -33,6 +33,7 @@ nav .nav__link {
 
 
 
+
 /*------------------------------------------ header css Ends Here----------------------------------- */
 
 
@@ -64,6 +65,21 @@ nav .nav__link {
     flex-direction: column;
 
   }
+
+  .navbar-toggler {
+    padding: 0rem;
+    font-size:0rem;
+    line-height: 0;
+    background-color: transparent;
+    border: 0.5px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+  }
+
+  .container-fluid img {    
+    /* background: url('') no-repeat center fixed;      */
+    background-size: cover;
+}
 }
 
 
