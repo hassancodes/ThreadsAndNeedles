@@ -67,19 +67,16 @@ nav .nav__link {
   }
 
   .navbar-toggler {
-    padding: 0rem;
+    /* padding: 0rem;
     font-size:0rem;
     line-height: 0;
     background-color: transparent;
     border: 0.5px solid transparent;
     border-radius: .25rem;
-    transition: box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out; */
+    display: none;
   }
 
-  .container-fluid img {    
-    /* background: url('') no-repeat center fixed;      */
-    background-size: cover;
-}
 }
 
 
