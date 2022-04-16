@@ -220,3 +220,8 @@ hr {
 		background-position: 0% 50%;
 	}
 } */
+
+.no-style-button {
+  all: unset;
+  cursor: pointer;
+}
