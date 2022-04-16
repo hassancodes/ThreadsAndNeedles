@@ -185,3 +185,38 @@ nav .nav__link {
   --bs-gutter-x: 0rem;
 }
 
+
+
+.textarea-message{
+margin-bottom: 15px;
+}
+
+
+
+/* 
+hr {
+  background: repeating-linear-gradient(to right, red,yellow, #CC72A0);
+  border: 0;
+  height: 1px;
+  padding: 1px;
+} */
+
+
+/* hr {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 1s ease infinite;
+	height: 1px;
+  padding:2px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
