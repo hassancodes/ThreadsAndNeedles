@@ -225,3 +225,20 @@ hr {
   all: unset;
   cursor: pointer;
 }
+
+
+/* This style with fix the form of get in touch */
+.form-custom-display{
+  border-width: 0;
+}
+
+.shadow-border-radius{
+  border-radius:0 10px 10px 0;
+}
+
+
+.image-border{
+  border-radius:10px 0px 0px 10px;
+}
+
+
