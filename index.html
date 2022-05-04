@@ -17,16 +17,6 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="Style/style.css">
 
-    <style>
-        .customclass {
-
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-
 </head>
 
 <body>
@@ -75,46 +65,19 @@
     </nav>
 
 
-    <!-- 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/sliderimage1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/sliderimage2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/sliderimage3.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-</div>
- -->
 
-
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide crouselsetting" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <video autoplay loop muted>
                     <source src="videos/mainpage.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <video autoplay loop muted>
                     <source src="videos/mainpage2.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="prev">
@@ -127,10 +90,11 @@
             <span class="visually-hidden">Next</span>
         </button>
 
-        <div class="customclass">
+        <div class="mainpage--text">
 
-            <h1 class="mainpage-text">Threads And Needles</h1>
-            <p><span>your favorite Thread for happiness </span></p>
+            <h1 class="mainpage__heading">Threads And Needles</h1>
+            <p class="mainpage__slogan"><span>your favorite Thread for happiness </span></p>
+            <button class="mainpage__button" type="button">Shop Designs</button>
         </div>
     </div>
 
@@ -149,7 +113,6 @@
 
 
 
-    <hr>
     <!-- Services -->
 
     <div>
@@ -162,18 +125,19 @@
                 <img class="card-img-top" src="images/stitching.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h3 class="card-title">Stitching</h3>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">
+                        We stitch <strong>Pakistani</strong> and <strong>Indian</strong> Ladies Clothes
+                    </p>
+                    <p class="card-text"><small class="text-muted"><a href="#contact">Contact us</a> for more inquiries</small></p>
                 </div>
             </div>
             <div class="card border-rad" style="width: 50rem;">
                 <img class="card-img-top" src="images/alteration.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h3 class="card-title">Alteration</h3>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    <p class="card-text"><strong>Alteration</strong> Includes all kinds of Ladies Clothes
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Prices May vary based on the type of alteratoion</small></p>
                 </div>
             </div>
 
@@ -181,7 +145,7 @@
     </div>
 
     <!-- add  a glow -->
-    <hr>
+    
     <!----------------------------- Features ------------------------------>
 
     <div>
@@ -211,7 +175,6 @@
 
     <!----------------------------- Pricing------------------------------>
 
-    <hr>
     <div>
         <div>
             <h2 class="sectionheadings" align="center" id="pricing">Pricing</h2>
@@ -254,12 +217,12 @@
 
     </div>
 
-    <hr>
+
 
 
     <!----------------------------- Form ------------------------------>
 
-    <div class="card mb-3 mx-auto form-custom-display" style="max-width:1480px;">
+    <div class="card mb-3 mx-auto form-custom-display" id="contact" style="max-width:1480px;">
         <div>
             <h2 class="sectionheadings" align="center">Get in Touch</h2>
         </div>

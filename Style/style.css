@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /* body {
 	background: linear-gradient(-90deg, #CC72A0, #e73c7e, #EDCADF, #DDA2BF);
 	background-size: 400% 400%;
@@ -20,10 +21,22 @@
 	}
 } */
 
+:root{
+  --primary-color1 : #FB6F92;
+  --primary-color2 : #FFBFAB;
+  --primary-color3 : #FFB3C6;
+  --primary-color4 : #FFC2D1;
+  --primary-color5 : #FFE5EC;
+}
+
+body{
+  font-family: "poppins";
+}
 /*------------------------------------------Font Settings ----------------------------------- */
 .sectionheadings {
-  font-family: 'Dancing Script';
-  font-size: 4vw;
+  /* font-family: 'Dancing Script'; */
+  font-family: 'Poppins';
+  font-size: 2.5vw;
   padding: 15px 0px 5px 0px;
 }
 
@@ -44,7 +57,7 @@ nav .nav__link {
 }
 
 .nav__link:hover {
-  border-top: 4px solid #CC72A0;
+  /* border-top: 4px solid #CC72A0; */
   border-bottom: 4px solid #CC72A0;
   padding: 6px 0;
 }
@@ -92,7 +105,7 @@ nav .nav__link {
   }
 
   .navbar-toggler {
-    display: none;
+    /* display: none; */
   }
 
   .container-fluid {
@@ -103,8 +116,7 @@ nav .nav__link {
   }
 
   .sectionheadings {
-    font-family: 'Dancing Script';
-    font-size: 8vw;
+    font-size: 5vw;
     padding: 15px 0px 5px 0px;
   }
 
@@ -193,33 +205,6 @@ margin-bottom: 15px;
 
 
 
-/* 
-hr {
-  background: repeating-linear-gradient(to right, red,yellow, #CC72A0);
-  border: 0;
-  height: 1px;
-  padding: 1px;
-} */
-
-
-/* hr {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	animation: gradient 1s ease infinite;
-	height: 1px;
-  padding:2px;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
 
 .no-style-button {
   all: unset;
@@ -243,8 +228,45 @@ hr {
 
 
 
-
+/* responsive video */
 video {
   width: 100%;
   height: auto;
+}
+
+
+/* main page text starts from here */
+.mainpage--text {
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mainpage__heading{
+  font-size: 3vw;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+  .mainpage--text {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  .mainpage__heading{
+    font-size: 4vw;
+  }
+  .mainpage__slogan{
+    font-size: 2vw;
+  }
+  .mainpage__button{
+    padding: 10px 15px 10px 15px;
+    background-color: #CC72A0;
+  }
 }
