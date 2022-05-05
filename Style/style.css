@@ -282,8 +282,8 @@ video {
   max-width: 200px;
   /* border:2px solid orange; */
   margin: auto;
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -301,9 +301,9 @@ body section {
   padding: 30px;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(10px);
-	transition: 0.2s;
+  transition: 0.2s;
 }
 
 /* this sections handles all the responsiveness of the website */
@@ -334,14 +334,15 @@ body section {
     padding: 10px 25px 10px 25px;
     border: 1px solid var(--primary-color1);
     background-color: var(--primary-color3);
-  
+
   }
+
   /* ----------------how we work responsiveness */
-  .card{
+  .card {
     margin: auto !important;
     margin-top: 40px !important;
     width: 60% !important;
-    
+
   }
 
 }
@@ -349,10 +350,10 @@ body section {
 
 /* ----------------------- */
 @media screen and (max-width: 500px) {
-.card{
-  margin: auto !important;
-  margin-top: 40px !important;
-  width: 70% !important;
-  
-}
+  .card {
+    margin: auto !important;
+    margin-top: 40px !important;
+    width: 80% !important;
+
+  }
 }
