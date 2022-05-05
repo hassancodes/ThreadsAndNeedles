@@ -329,9 +329,9 @@ body section {
 
   /* ----------------how we work responsiveness */
   .card{
-    margin-left:auto !important;
-    margin-right:auto !important;
+    margin: auto !important;
     margin-top: 40px !important;
+    width: 60% !important;
     
   }
 
