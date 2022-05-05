@@ -341,7 +341,7 @@ body section {
   .card {
     margin: auto !important;
     margin-top: 40px !important;
-    width: 70% !important;
+    width: 80% !important;
 
   }
 
@@ -349,11 +349,11 @@ body section {
 
 
 /* ----------------------- */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .card {
     margin: auto !important;
     margin-top: 40px !important;
     width: 80% !important;
 
   }
-}
+} */
