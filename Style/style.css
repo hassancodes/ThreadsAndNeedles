@@ -279,10 +279,11 @@ video {
 
 
 .howwework--img {
-  width: 12rem;
+  max-width: 200px;
   /* border:2px solid orange; */
   margin: auto;
-
+    width: 100%;
+    height: auto;
 }
 
 
@@ -347,3 +348,11 @@ body section {
 
 
 /* ----------------------- */
+@media screen and (max-width: 500px) {
+.card{
+  margin: auto !important;
+  margin-top: 40px !important;
+  width: 50% !important;
+  
+}
+}
