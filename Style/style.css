@@ -21,17 +21,18 @@
 	}
 } */
 
-:root{
-  --primary-color1 : #FB6F92;
-  --primary-color2 : #FFBFAB;
-  --primary-color3 : #FFB3C6;
-  --primary-color4 : #FFC2D1;
-  --primary-color5 : #FFE5EC;
+:root {
+  --primary-color1: #FB6F92;
+  --primary-color2: #FFBFAB;
+  --primary-color3: #FFB3C6;
+  --primary-color4: #FFC2D1;
+  --primary-color5: #FFE5EC;
 }
 
-body{
+body {
   font-family: "poppins";
 }
+
 /*------------------------------------------Font Settings ----------------------------------- */
 .sectionheadings {
   /* font-family: 'Dancing Script'; */
@@ -82,9 +83,8 @@ nav .nav__link {
 
 .aligningcards {
   display: flex !important;
-  justify-content:center;
+  justify-content: center;
 
-  /* margin : 20px; */
 }
 
 .aligningcards div {
@@ -95,13 +95,12 @@ nav .nav__link {
 @media (max-width: 600px) {
   .card {
     /* width:25rem !important; */
-    width: 100% !important;
+    width: 60% !important;
   }
 
   .aligningcards {
     display: flex;
     flex-direction: column;
-
   }
 
   .navbar-toggler {
@@ -112,7 +111,6 @@ nav .nav__link {
     flex-direction: row;
     justify-content: center !important;
     align-items: center !important;
-
   }
 
   .sectionheadings {
@@ -137,15 +135,17 @@ nav .nav__link {
   text-align: center;
 
 }
+
 /* border and common stuff */
 
-.border-rad{
+.border-rad {
   border-radius: 13px;
 }
 
-.git-image{
-  border-radius: 200px     10px      0           0;
+.git-image {
+  border-radius: 200px 10px 0 0;
 }
+
 /* ==========================Features CSS start from here =========================== */
 
 
@@ -189,7 +189,7 @@ nav .nav__link {
 
 /* -----------------------my own classes */
 
-.price-font{
+.price-font {
   font-size: 20px;
 }
 
@@ -201,8 +201,8 @@ nav .nav__link {
 
 
 
-.textarea-message{
-margin-bottom: 15px;
+.textarea-message {
+  margin-bottom: 15px;
 }
 
 
@@ -215,17 +215,17 @@ margin-bottom: 15px;
 
 
 /* This style with fix the form of get in touch */
-.form-custom-display{
+.form-custom-display {
   border-width: 0;
 }
 
-.shadow-border-radius{
-  border-radius:0 10px 10px 0;
+.shadow-border-radius {
+  border-radius: 0 10px 10px 0;
 }
 
 
-.image-border{
-  border-radius:10px 0px 0px 10px;
+.image-border {
+  border-radius: 10px 0px 0px 10px;
 }
 
 
@@ -248,13 +248,13 @@ video {
 }
 
 
-.mainpage__heading{
+.mainpage__heading {
   font-size: 3vw;
   opacity: 0.9;
   margin-bottom: 20px;
 }
 
-.mainpage__button{
+.mainpage__button {
   margin-top: 20px;
   padding: 15px 35px 15px 35px;
   border: 1px solid var(--primary-color1);
@@ -262,56 +262,80 @@ video {
 
 }
 
-.mainpage__button:hover{
-background-color: var(--primary-color1);
+.mainpage__button:hover {
+  background-color: var(--primary-color1);
 }
 
-.mainpage--text h1 p button{
-margin-top: 30px;
-margin-bottom: 30px;
+.mainpage--text h1 p button {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
-@media screen and (max-width: 600px) {
-  .mainpage--text {
-
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-  }
-  .mainpage__heading{
-    font-size: 4vw;
-  }
-  .mainpage__slogan{
-    font-size: 2vw;
-  }
-}
-
 
 
 /* main Sections */
-.main--section div{
-/* border: 2px solid red; */
+.main--section div {
+  /* border: 2px solid red; */
 }
 
 
-.howwework--img{
+.howwework--img {
   width: 12rem;
   /* border:2px solid orange; */
-  margin:auto;
-  
+  margin: auto;
+
 }
 
 
-.main--section{
-  max-width : 1300px;
+.main--section {
+  max-width: 1300px;
 }
 
 
-body section{
-  margin:auto;
+body section {
+  margin: auto;
 }
-.card{
+
+.card {
   box-shadow: 2px 3px var(--primary-color3);
+  padding: 30px;
 }
+
+.card:hover{
+  transform: translateY(10px);
+	transition: 0.2s;
+}
+
+/* this sections handles all the responsiveness of the website */
+
+
+/* ------------------dealing with main page  text */
+@media screen and (max-width: 600px) {
+  .mainpage--text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .mainpage__heading {
+    font-size: 4vw;
+  }
+
+  .mainpage__slogan {
+    font-size: 2vw;
+  }
+
+  /* ----------------how we work responsiveness */
+  .card{
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top: 40px !important;
+    
+  }
+
+}
+
+
+/* ----------------------- */
