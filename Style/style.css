@@ -37,7 +37,7 @@ body{
   /* font-family: 'Dancing Script'; */
   font-family: 'Poppins';
   font-size: 2.5vw;
-  padding: 15px 0px 5px 0px;
+  padding: 45px 0px 45px 0px;
 }
 
 
@@ -117,8 +117,10 @@ nav .nav__link {
 
   .sectionheadings {
     font-size: 5vw;
-    padding: 15px 0px 5px 0px;
+    padding: 20px 0px 20px 0px;
   }
+
+
 
 
 }
@@ -245,9 +247,28 @@ video {
   text-align: center;
 }
 
+
 .mainpage__heading{
   font-size: 3vw;
   opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.mainpage__button{
+  margin-top: 20px;
+  padding: 15px 35px 15px 35px;
+  border: 1px solid var(--primary-color1);
+  background-color: var(--primary-color3);
+
+}
+
+.mainpage__button:hover{
+background-color: var(--primary-color1);
+}
+
+.mainpage--text h1 p button{
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -265,8 +286,32 @@ video {
   .mainpage__slogan{
     font-size: 2vw;
   }
-  .mainpage__button{
-    padding: 10px 15px 10px 15px;
-    background-color: #CC72A0;
-  }
+}
+
+
+
+/* main Sections */
+.main--section div{
+/* border: 2px solid red; */
+}
+
+
+.howwework--img{
+  width: 12rem;
+  /* border:2px solid orange; */
+  margin:auto;
+  
+}
+
+
+.main--section{
+  max-width : 1300px;
+}
+
+
+body section{
+  margin:auto;
+}
+.card{
+  box-shadow: 2px 3px var(--primary-color3);
 }
