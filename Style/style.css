@@ -327,6 +327,14 @@ body section {
     font-size: 2vw;
   }
 
+
+  .mainpage__button {
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid var(--primary-color1);
+    background-color: var(--primary-color3);
+  
+  }
   /* ----------------how we work responsiveness */
   .card{
     margin: auto !important;
