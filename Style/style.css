@@ -67,7 +67,11 @@ nav .nav__link {
   color: black !important;
 }
 
-
+.logo{
+    max-width: 80%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 
 
