@@ -321,7 +321,7 @@ body section {
   }
 
   .mainpage__heading {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .mainpage__slogan {
@@ -331,7 +331,7 @@ body section {
 
   .mainpage__button {
     margin-top: 10px;
-    padding: 10px 25px 10px 25px;
+    padding: 5px 15px 5px 15px;
     border: 1px solid var(--primary-color1);
     background-color: var(--primary-color3);
 
