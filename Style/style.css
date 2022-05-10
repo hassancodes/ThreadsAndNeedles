@@ -261,6 +261,10 @@ video {
   background-color: var(--primary-color3);
 
 }
+.button__link{
+  text-decoration: none;
+  color: black;
+}
 
 .mainpage__button:hover {
   background-color: var(--primary-color1);
