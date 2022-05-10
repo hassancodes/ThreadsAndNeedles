@@ -68,11 +68,6 @@ nav .nav__link {
 }
 
 
-@media screen and (max-width: 600px) {
-  .logo {
-    max-width: 60%;
-}
-
 
 /*------------------------------------------ header css Ends Here----------------------------------- */
 
@@ -95,7 +90,7 @@ nav .nav__link {
 
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .card {
     /* width:25rem !important; */
     width: 60% !important;
