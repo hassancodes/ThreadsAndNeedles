@@ -352,6 +352,11 @@ body section {
 
   }
 
+  .logo{
+    width: 150px;
+    height:30px;
+  }
+
 }
 
 
