@@ -393,7 +393,8 @@ border:1px solid red;
 }
 
 video{
-  transform: scale(2.0);
+  transform: scale(2.5);
+  height:465px;
 }
 
 }
