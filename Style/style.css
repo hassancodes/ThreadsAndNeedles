@@ -385,6 +385,15 @@ body section {
   /* width: ; */
 }
 
+.mainpage__heading{
+  font-size: 30px;
+
+}
+
+.mainpage__slogan{
+  font-size: 15px;
+}
+
 .carousel-item{
 /* width:500px; */
 height:465px;
@@ -397,6 +406,8 @@ video{
   height:465px;
   margin-left:200px;
 }
+
+
 
 }
 
