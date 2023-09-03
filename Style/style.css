@@ -264,6 +264,7 @@ video {
   color: black;
 }
 
+
 .mainpage__button:hover {
   background-color: var(--primary-color1);
 }
@@ -384,7 +385,14 @@ body section {
   /* width: ; */
 }
 
+.carousel-item{
+  height:500px;
+}
+video{
+    width: 100%;
+    /* height: 200%; */
 
+    transform: scale(5);
 }
 
 
