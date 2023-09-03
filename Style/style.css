@@ -72,7 +72,9 @@ nav .nav__link {
 
 /*------------------------------------------ header css Ends Here----------------------------------- */
 
-
+.mobilecarousels{
+  display:none;
+}
 
 
 
@@ -341,14 +343,15 @@ body section {
 
 /* featured images */
 #carouselExampleAutoplaying{
-  width:500px;
-  height:500px;
+  width:100%;
+  /* height:500px; */
   margin:auto;
 }
 
 #carouselExampleAutoplaying img{
-  width:500px;
-  height:500px;
+  width:100%;
+  margin:auto;
+  /* height:; */
 }
 
 /* this sections handles all the responsiveness of the website */
@@ -432,16 +435,12 @@ video{
 
 
 
+/* hiding desktop carousels */
+.desktopcarousels{
+  display:none;
 }
-
-
-/* ----------------------- */
-/* @media screen and (max-width: 500px) {
-  .card {
-    margin: auto !important;
-    margin-top: 40px !important;
-    width: 80% !important;
-
-  }
-} */
+.mobilecarousels{
+  display:block;
+}
+}
 
