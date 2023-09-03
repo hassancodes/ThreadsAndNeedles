@@ -360,7 +360,6 @@ body section {
   .card {
     margin: auto !important;
     margin-top: 40px !important;
-
     width: 80% !important;
    
 
@@ -373,9 +372,11 @@ body section {
   }
 
   .logo{
-    width: 200px;
-    height:35px;
-  }
+  width: 220px;
+  height:auto;
+
+  /* width: ; */
+}
 
 
 }
