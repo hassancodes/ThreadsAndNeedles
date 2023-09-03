@@ -29,6 +29,8 @@
   --primary-color5: #FFE5EC;
 }
 
+
+
 body {
   font-family: "poppins";
 }
@@ -41,6 +43,7 @@ body {
   padding-top: 160px;
   padding-bottom: 20px;
 }
+
 
 
 /*------------------------------------------ header css Start----------------------------------- */
@@ -78,7 +81,9 @@ nav .nav__link {
 
 
 
-
+.card{
+  padding:50px;
+}
 
 /*------------------------------------------ Aligning the cards ----------------------------------- */
 
