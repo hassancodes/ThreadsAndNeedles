@@ -348,15 +348,28 @@ body section {
 
 
 /* featured images */
-#carouselExampleAutoplaying{
+#carouselExampleAutoplaying  {
   width:100%;
-  /* height:720px; */
-  /* border:1px solid red; */
-  /* height:500px; */
   margin:auto;
 }
 
+#carouselExampleAutoplayingsec{
+  width:100%;
+  margin:auto;
+}
+
+
 #carouselExampleAutoplaying img{
+  width:380px;
+  height:380px;
+  border-radius: 10px;
+
+  margin:auto;
+  /* height:; */
+}
+
+
+#carouselExampleAutoplayingsec img{
   width:380px;
   height:380px;
   border-radius: 10px;
