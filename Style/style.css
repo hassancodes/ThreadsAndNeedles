@@ -349,7 +349,9 @@ body section {
 }
 
 #carouselExampleAutoplaying img{
-  width:100%;
+  width:620px;
+  height:620px;
+
   margin:auto;
   /* height:; */
 }
