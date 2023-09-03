@@ -38,7 +38,8 @@ body {
   /* font-family: 'Dancing Script'; */
   font-family: 'Poppins';
   font-size: 2.5vw;
-  padding-top: 45px;
+  padding-top: 160px;
+  padding-bottom: 20px;
 }
 
 
@@ -314,7 +315,11 @@ body section {
 
 .form-div{
   padding: 100px 0px 100px 0px;
- 
+  
+}
+
+.form-bg{
+  background-color: var(--primary-color4);
 
 }
 .form{
@@ -322,6 +327,7 @@ body section {
   /* border:1px solid black; */
   width:70%;
   margin:auto;
+
 }
 .form label{
   margin-top: 30px;
