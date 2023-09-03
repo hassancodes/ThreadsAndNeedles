@@ -135,6 +135,10 @@ nav .nav__link {
 
 }
 
+.formheading{
+  font-size: 2.5vw;
+}
+
 /* border and common stuff */
 
 .border-rad {
@@ -335,8 +339,17 @@ body section {
 }
 
 
+/* featured images */
+#carouselExampleAutoplaying{
+  width:500px;
+  height:500px;
+  margin:auto;
+}
 
-
+#carouselExampleAutoplaying img{
+  width:500px;
+  height:500px;
+}
 
 /* this sections handles all the responsiveness of the website */
 
@@ -411,6 +424,10 @@ video{
   height:465px;
   margin-left:200px;
 
+}
+
+.formheading{
+  font-size: 7vw;
 }
 
 
