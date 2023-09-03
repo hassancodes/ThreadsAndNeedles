@@ -397,7 +397,6 @@ body section {
 .carousel-item{
 /* width:500px; */
 height:465px;
-border:1px solid red;
 
 }
 
@@ -405,6 +404,7 @@ video{
   transform: scale(3);
   height:465px;
   margin-left:200px;
+
 }
 
 
