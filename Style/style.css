@@ -395,6 +395,7 @@ border:1px solid red;
 video{
   transform: scale(2.5);
   height:465px;
+  margin-left:300px;
 }
 
 }
