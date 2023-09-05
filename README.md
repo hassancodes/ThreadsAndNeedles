@@ -1,2 +1,6 @@
 # ThreadsAndNeedles
-Building a Business Site 
+Website for local Business 
+
+# Maintenance Status :
+Paused
+
